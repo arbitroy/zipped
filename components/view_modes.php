@@ -20,16 +20,7 @@ function renderTabs($categoryId)
         </div>
     </div>';
 }
-// 1089 => "Started School", // should be 1089
-// 1090 => "Made a friend", // should be 1090
-// 1091 => "Graduated",
-// 1092 => "Moved to a new home",
-// 1093 => "Began first job",
-// 1094 => "Fell in love",
-// 1095 => "Got Married",
-// 1131 => "Became a parent",
-// 1132 => "Adopted a special pet",
-// 1133 => "Reached a faith milestone"
+
 function renderTabContent($memory, $categoryId, $image)
 {
     $date = htmlspecialchars($memory["datefrom"] ?? "Unknown Date");
